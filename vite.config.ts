@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // 1. GitHub Repository Path
-      base: '/neonvegasgame.vercel.app/', 
+base: '/', 
 
       server: {
         port: 3000,
